@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* <-- This centers it horizontally */
+    padding: 20px;
+}
+
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 36px;
+    margin: 0;
+    color: #262626;
+    text-align: center;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.post h3 {
+    margin-top: 0;
+    color: #262626;
+}
+
+.post p {
+    color: #262626;
+}
+
+.post button, .post a {
+    background-color: transparent;
+    border: none;
+    color: #00376b;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #007cd1;
+}

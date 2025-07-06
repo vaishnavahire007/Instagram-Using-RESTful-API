@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All about Post</title>
+</head>
+<body>
+    <h2>@<%= post.username %>'s Post</h2>
+<img src="<%= post.imageUrl %>" width="400"/>
+<p><%= post.caption %></p>
+<p>❤️ <%= post.likes %></p>
+
+<form method="POST" action="/posts/<%= post.id %>/like">
+    <button>❤️ Like</button>
+</form>
+
+<h3>Comments:</h3>
+<% post.comments.forEach(c => { %>
+    <p>- <%= c %></p>
+<% }) %>
+
+<form method="POST" action="/posts/<%= post.id %>/comment">
+    <input type="text" name="comment" placeholder="Write a comment..." />
+    <button>Post Comment</button>
+</form>
+
+</body>
+</html>
