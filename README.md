@@ -109,10 +109,12 @@ To save posts permanently, consider integrating MongoDB or Firebase later.
 
 ---
 
-## 🧑‍💻 Author
-Vaishnav Ahire
-GitHub: @vaishnav007
-Email: vaishnavahire007@example.com
+## 👩‍💻 Author
+
+**Vaishnav Ahire**  
+GitHub: [@vaishnavahire007](https://github.com/vaishnavahire007)  
+Email: [vaishnavahire007@example.com](mailto:vaishnavahire007@example.com)
+
 
 ---
 
