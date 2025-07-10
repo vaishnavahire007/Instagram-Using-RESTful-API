@@ -1,4 +1,4 @@
-# 📸 Instagram Clone (Node.js + Express)
+# 📸 Instagram Page(Node.js + Express)
 
 This is a beginner-friendly Instagram-style web application built using **Node.js**, **Express.js**, and **EJS** template engine. It demonstrates REST API concepts with full **CRUD operations**, **image uploads**, and a simple frontend — all without using any database.
 
@@ -19,7 +19,7 @@ Posts are stored **in memory** (as an array), and images are saved **locally** u
 ---
 
 ## 📁 Folder Structure
-
+```
 instagram-clone/
 ├── public/
 │ ├── uploads/ # Uploaded images
@@ -31,7 +31,7 @@ instagram-clone/
 │ └── edit.ejs # Edit post caption
 ├── index.js # Main Express server
 ├── package.json # Project metadata and scripts
-
+```
 
 ---
 
@@ -51,7 +51,7 @@ instagram-clone/
 
 ### Step 1: Clone the repository
 
-```bash
+bash
 git clone https://github.com/your-username/instagram-clone.git
 cd instagram-clone
 
@@ -71,17 +71,17 @@ mkdir -p public/uploads
 
 node index.js
 
-Or if using nodemon:
+### Or if using nodemon:
 
 nodemon index.js
 
-Step 5: Open in browser
+### Step 5: Open in browser
 
 http://localhost:8080/posts
 
 ---
 
-📸 How to Use
+## 📸 How to Use
 Click "Create New Post".
 
 Upload an image from your computer.
@@ -102,26 +102,26 @@ View the post to:
 
 ---
 
-🛠 Customization Tips
+## 🛠 Customization Tips
 You can change the CSS in public/style.css to match Instagram even more.
 
 To save posts permanently, consider integrating MongoDB or Firebase later.
 
 ---
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Vaishnav Ahire
 GitHub: @vaishnav007
 Email: vaishnavahire007@example.com
 
 ---
 
-⭐ Like This Project?
+## ⭐ Like This Project?
 If this helped you learn, give it a ⭐ on GitHub and share it!
 
 ---
 
-📜 License
+## 📜 License
 This project is for educational purposes only. No commercial use intended.
 
 📌 **To Use This in GitHub**:
